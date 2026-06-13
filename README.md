@@ -251,3 +251,5 @@ All key projects are open source under MIT License:
 <p align="center">
   <sub>Built with production-grade intent. No templates. No fluff. Just systems.</sub>
 </p>
+
+<!-- profile:version:v1.0.1 -->
