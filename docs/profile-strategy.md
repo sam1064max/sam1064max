@@ -1,62 +1,80 @@
-# Profile Strategy — sam1064max
+# Profile Strategy — sam1064max (v2.0)
 
 ## Positioning
 
-**Target Identity**: Staff/Principal AI Platform Engineer operating at the intersection of AI Architecture, Agentic Systems, and Production Infrastructure.
+**Target Identity**: AI Architect and Tech Lead with 12+ years building production AI systems across finance, AdTech, analytics, and cloud platforms.
 
-**Not**: A generic full-stack developer, a notebook practitioner, or an ML researcher.
+**Career Progression**:
+Persistent Systems → Goldman Sachs → Google Cloud → Slintel → Amagi → AngelOne
 
-**Is**: An engineer who builds entire AI platforms — from inference to retrieval to guardrails to observability — and ships them to production.
+**Not**: A GitHub hobbyist, LangGraph enthusiast, or open-source contributor.
+**Is**: A technical leader who owns AI architecture from concept to production.
 
 ---
 
-## Strengths
+## Resume-Corrected Facts
 
-| Strength | Evidence |
+| Fact | Source |
 |---|---|
-| Full-stack AI platform ownership | `rag-platform-qwen3`: RAG + agents + guardrails + eval + observability in one system |
-| Production-grade agentic systems | `enterprise-nested-langgraph` (140 tests, 90% coverage), `supervisor` (111 tests, 96% coverage) |
-| Multi-agent orchestration | LangGraph hierarchical graphs, Supervisor pattern, Planner-Executor, Router Agent |
-| Infrastructure maturity | Docker, Terraform (HCL), CI/CD, self-hosted stack (Qdrant, vLLM, MinIO, OpenBao) |
-| Observability & evaluation | OpenTelemetry, Langfuse, Prometheus, Grafana, RAGAS, DeepEval |
-| Security consciousness | NeMo Guardrails, STRIDE threat modeling, prompt injection defense |
-| AdTech domain expertise | NLP2SQL Analytics Copilot for AdTech intelligence |
-| Google-level engineering rigor | 100% type hints, Ruff, Mypy, Pydantic v2, structured logging |
+| Current role: Not currently employed (AngelOne ended Jan 2026) | Resume |
+| AngelOne: Tech Lead, Jan 2024 – Jan 2026 | Resume |
+| Amagi: Tech Lead, May 2023 – Jan 2024 | Resume |
+| Slintel: Lead SWE, Oct 2021 – Mar 2023 | Resume |
+| Google Cloud: Sr. SWE, Dec 2019 – Sep 2021 | Resume |
+| Goldman Sachs: Sr. SWE, Aug 2018 – Dec 2019 | Resume |
+| Persistent Systems: SWE, Jul 2013 – Aug 2018 | Resume |
+| Education: M.Tech IIT Bombay, B.E. Nagpur University | Resume |
+| GATE 99.51 percentile | Resume |
+| Mentored 30+ engineers, 100+ interviews | Resume |
 
 ---
 
-## Differentiators
+## Sections Changed (v1 → v2)
 
-1. **Platform thinker** — doesn't just build models; builds the infrastructure around them
-2. **Architecture-first** — full Mermaid diagrams, component docs, security specs before code
-3. **Test-obsessed** — 90-96% coverage on LLM systems (rare in the industry)
-4. **Self-hosted conviction** — builds on-prem AI platforms, not just cloud-managed services
-5. **Agentic depth** — multiple agent patterns (Supervisor, Router, Planner-Executor, hierarchical) not just a single LangChain call
+### Removed
+- "Currently at Google" (inaccurate)
+- "Current Focus" section (redundant)
+- "Core Expertise" table (replaced with categorized skills)
+- "Architecture Portfolio" (replaced with career-based projects)
+- "Technology Map" (replaced with categorized expertise)
+- "Selected Impact" (merged into Career Highlights)
+- "Open Source" section (minimal)
+- Excessive badge rows
+- Visitor counter badge
+- Code block for focus areas
+
+### Added
+- Executive Summary (Staff Engineer level prose)
+- Career Highlights (quantified outcomes table)
+- Professional Experience Snapshot (timeline with accomplishments)
+- Leadership & Mentoring section
+- Education section (IIT Bombay, GATE)
+- Achievements section
+- Projects organized by company/role
+
+### Restructured
+- Hero: simplified, no badges
+- Featured Projects: tied to career history
+- Technical Expertise: categorized by capability
+- Contact: minimal, text-based
 
 ---
 
-## Target Audience
+## Target Audience Response
 
-| Audience | What they look for | What we show |
-|---|---|---|
-| Engineering Directors | Can this person own a platform? | End-to-end RAG platform with 6+ components |
-| CTOs | Does this person think in systems? | Architecture diagrams, security docs, evaluation strategy |
-| Staff Engineers | Is the code production-grade? | 96% test coverage, type hints, structured logging |
-| Founders | Can this person build from 0→1? | Self-hosted infra, full stack ownership |
-| Recruiters (senior roles) | Does this match Staff/Principal bar? | Google tenure, platform scope, technical depth |
-
----
-
-## Positioning Statement
-
-> 10+ years building ML systems, AI platforms, distributed data products, and production-grade LLM applications. Currently building agentic AI platforms at Google. Specializing in RAG systems, multi-agent orchestration, LLMOps, and production AI infrastructure.
+**Within 30 seconds, a visitor should conclude:**
+- This person has built production AI systems at scale
+- This person can own AI architecture from concept to production
+- This person has leadership and mentoring experience
+- This person operates at Staff/Principal level
+- This person has cross-functional, cross-industry experience
 
 ---
 
-## Commit Strategy
+## Design Principles
 
-Phase 1: `docs(profile): define profile strategy`
-Phase 2-13: `feat(profile): ...` (per section)
-Phase 14: `feat(profile): automate profile maintenance`
-Phase 15: `docs(profile): document landing page architecture`
-Phase 16: `docs(pr): document profile redesign` → merge → `chore(release): v1.0.0`
+1. **Resume-first**: Every claim backed by resume
+2. **Outcome-focused**: Metrics over technologies
+3. **Career narrative**: Clear progression story
+4. **Minimalist**: No decoration, pure signal
+5. **Executive tone**: Staff Engineer portfolio, not developer blog
