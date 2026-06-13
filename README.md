@@ -1,256 +1,134 @@
-<!-- sam1064max profile v1.0.2 -->
-<h1 align="center">Sushant Shambharkar</h1>
+# Sushant Shambharkar
 
-<p align="center">
-  <strong>AI Architect · Agentic AI Platform Engineer · MLOps · Distributed Systems</strong>
-</p>
+**AI Architect · Agentic AI Platform Lead · Tech Lead**
 
-<p align="center">
-  Building production AI platforms, agentic systems, and LLM infrastructure at Google.
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/sushant-shambharkar-b6242658"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/sam1064max?tab=repositories"><img src="https://img.shields.io/badge/Repos-35-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos"></a>
-  <img src="https://img.shields.io/badge/Followers-4-181717?style=for-the-badge&logo=github&logoColor=white" alt="Followers">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <a href="https://github.com/sam1064max/rag-platform-qwen3/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
-</p>
+Building production AI systems, agentic platforms, and large-scale ML infrastructure for finance, AdTech, analytics, and cloud products.
 
 ---
 
-## About
+## Executive Summary
 
-I design and build **production AI platforms** — not prototypes, not notebooks, not demos.
+Applied AI Architect and Tech Lead with 12+ years of experience building and deploying production AI systems across finance, AdTech, analytics, and cloud platforms. Expertise spans GenAI, agentic AI, LLM infrastructure, and scalable ML platforms with a proven track record of translating complex business workflows into AI-driven products.
 
-Over 10+ years in ML/AI, I've shipped systems across AdTech, NLP, distributed data, and now **agentic AI infrastructure**. My work spans the full stack: from vector databases and inference runtimes to guardrails, evaluation frameworks, and observability pipelines.
+Currently architected and deployed a multi-agent wealth management platform at AngelOne, improving customer engagement by 35% and reducing advisor response latency by 60%. Previously built real-time NLP and experimentation infrastructure at Goldman Sachs and Google Cloud, and led NLP2SQL and AdTech optimization platforms at Slintel and Amagi.
 
-Currently at **Google**, building agentic AI platforms with multi-agent orchestration, RAG systems, and LLM ops infrastructure.
-
-**What I build:**
-- End-to-end RAG platforms (ingestion → retrieval → generation → evaluation)
-- Multi-agent orchestration systems (Supervisor, Router, Planner-Executor patterns)
-- LLM guardrails and safety infrastructure
-- Production observability for AI systems (traces, metrics, dashboards)
-- Self-hosted AI infrastructure (vLLM, Qdrant, MinIO, on-prem deployments)
-
-**What I don't do:**
-- Build models — I build the platforms that run them
-- Ship without tests — 90-96% coverage on LLM systems
-- Ignore security — STRIDE threat modeling, prompt injection defense
-- Skip documentation — full architecture diagrams before code
+Technical leader with deep experience in AI architecture, platform ownership, and cross-functional execution. Drives AI adoption through mentoring engineers, defining architecture standards, and leading technical initiatives from concept to production. Proven ability to own end-to-end AI systems — from model selection and inference optimization to observability, guardrails, and deployment.
 
 ---
 
-## Current Focus
+## Career Highlights
 
-```
-Agentic AI Platforms    AI Evaluation    LLMOps
-Multi-Agent Systems     Inference Optimization    AI Platform Engineering
-```
-
----
-
-## Core Expertise
-
-| Domain | Depth |
+| Impact | Context |
 |---|---|
-| **AI Architecture** | End-to-end platform design — retrieval, generation, guardrails, evaluation, observability |
-| **Agentic AI** | Multi-agent orchestration with LangGraph — Supervisor, Router, Hierarchical, Planner-Executor |
-| **LLMOps** | LLM observability (Langfuse, OTel), evaluation (RAGAS, DeepEval), prompt management |
-| **MLOps** | Model serving (vLLM), feature stores, pipeline orchestration, CI/CD for ML |
-| **Distributed Systems** | Self-hosted infrastructure, container orchestration, secrets management |
-| **Data Engineering** | NLP2SQL, analytics pipelines, AdTech intelligence platforms |
+| 35% improvement in customer engagement | Multi-agent wealth management platform at AngelOne |
+| 60% reduction in advisor response latency | Autonomous portfolio intelligence and investment advisory |
+| 30% improvement in CTR | Real-time AdTech optimization at Amagi |
+| 20% increase in viewer retention | Dynamic ad inventory optimization with edge ML |
+| 200% improvement in dashboard creation efficiency | NLP2SQL platform at Slintel |
+| 3x reduction in dashboard load times | Automated aggregation framework |
+| 25% reduction in code-induced failures | Self-healing experimentation infrastructure at Google |
+| 7% boost in long-term retention | ML-based A/B test orchestration at Google |
+| 10x reduction in processing latency | ML pipeline migration at Persistent Systems |
+
+---
+
+## Professional Experience
+
+**AngelOne** · Tech Lead · Jan 2024 – Jan 2026
+Architected multi-agent wealth management platform (planner-executor-reviewer agents, persistent memory, real-time market data, ML-driven risk profiling). Improved engagement 35%, reduced advisor latency 60%.
+
+**Amagi** · Tech Lead · May 2023 – Jan 2024
+Upgraded real-time ad delivery with edge ML models, autonomous optimization pipelines, PyTorch, Kubernetes, Snowflake, Delta Lake. Improved CTR 30%, viewer retention 20%.
+
+**Slinthead** · Lead SWE · Oct 2021 – Mar 2023
+Architected NLP2SQL platform using fine-tuned LLMs for automated dashboard generation. Improved creation efficiency 200%, reduced load times 3x.
+
+**Google Cloud** · Sr. SWE · Dec 2019 – Sep 2021
+Built self-healing experimentation infrastructure (Mendel), ML-based flag conflict detection, A/B test orchestration. Reduced failures 25%, boosted retention 7%.
+
+**Goldman Sachs** · Sr. SWE · Aug 2018 – Dec 2019
+Architected real-time NLP platform with Apache Flink and transformer models for client communication analytics. Multi-task ranking models for urgency, sentiment, and response prioritization.
+
+**Persistent Systems** · SWE · Jul 2013 – Aug 2018
+Built ML-driven workforce optimization systems for route planning and task prediction. Migrated pipelines from SAS to PySpark, achieving 10x latency reduction.
+
+---
+
+## Technical Expertise
+
+### Agentic AI & GenAI
+LangGraph · MCP · Multi-Agent Systems · Planner-Executor · Supervisor · Router Patterns · LLaMA · Hugging Face · RLHF · DPO · LoRA · vLLM · TensorRT-LLM · LiteLLM
+
+### ML Platforms & Infrastructure
+MLflow · TensorFlow · MXNet · FastAPI · Ray · Temporal · Airflow
+
+### Data & Streaming
+Spark · Flink · Kafka · Elasticsearch · Redis · Qdrant · PostgreSQL · Snowflake · Databricks
+
+### Cloud & DevOps
+AWS · GCP · Docker · Kubernetes · Terraform · Ansible · CI/CD · Proxmox
+
+### Observability & Security
+OpenTelemetry · Grafana · Prometheus · Guardrails · Presidio · Vault · LangSmith
 
 ---
 
 ## Featured Projects
 
-### rag-platform-qwen3 — Production RAG Platform
+### Multi-Agent Wealth Management Platform
+**AngelOne · 2024–2026**
+Production agentic system for autonomous customer servicing, portfolio intelligence, and investment advisory. Planner-executor-reviewer agents with persistent memory, real-time market data retrieval, and ML-driven risk profiling. Improved engagement 35%, reduced advisor latency 60%.
 
-> Self-hosted, production-grade Retrieval-Augmented Generation platform with agent orchestration, hybrid retrieval, and comprehensive safety infrastructure.
+### Real-Time Ad Delivery Optimization
+**Amagi · 2023–2024**
+Edge ML models and autonomous optimization pipelines for dynamic ad inventory. PyTorch, Kubernetes, Snowflake, Delta Lake. Improved CTR 30%, viewer retention 20%.
 
-**Architecture:** FastAPI → Guardrails → Agent Runtime → Hybrid Retrieval → Reranking → Generation
+### NLP2SQL Analytics Platform
+**Slinthead · 2021–2023**
+Fine-tuned LLMs for natural language to SQL generation. Automated dashboard creation and query optimization. Improved efficiency 200%, reduced load times 3x.
 
-| Component | Technology |
-|---|---|
-| LLM Inference | vLLM + Qwen3-32B-Instruct |
-| Embeddings | Qwen3-Embedding-8B |
-| Vector Store | Qdrant (dense) + BM25 (sparse) + RRF fusion |
-| Guardrails | NeMo Guardrails (prompt injection, PII, toxicity) |
-| Agent Runtime | LangGraph (plan → act → observe) |
-| Evaluation | RAGAS + DeepEval with golden datasets |
-| Observability | OpenTelemetry + Langfuse + Prometheus + Grafana |
-| Secrets | OpenBao (self-hosted Vault) |
-| Infrastructure | Docker, Terraform (HCL), Makefile |
+### Self-Healing Experimentation Infrastructure
+**Google Cloud · 2019–2021**
+ML-based flag conflict detection and rollback prediction within Mendel. Automated A/B test orchestration with behavioral clustering. Reduced failures 25%.
 
-[Architecture Docs](https://github.com/sam1064max/rag-platform-qwen3/blob/main/docs/architecture.md) · [Security Spec](https://github.com/sam1064max/rag-platform-qwen3/blob/main/docs/security.md) · [API Spec](https://github.com/sam1064max/rag-platform-qwen3/blob/main/docs/spec.md) · [Repository](https://github.com/sam1064max/rag-platform-qwen3)
+### Real-Time NLP Platform
+**Goldman Sachs · 2018–2019**
+Apache Flink and transformer models for client communication analytics. Multi-task ranking for urgency, sentiment, and response prioritization.
 
----
-
-### enterprise-nested-langgraph — Hierarchical Multi-Agent System
-
-> Production-grade multi-agent research and analytics system with nested LangGraph architecture, typed state, and defense-in-depth guardrails.
-
-**Architecture:** Supervisor → Research Subgraph | Analytics Subgraph | Reporting Subgraph
-
-| Metric | Value |
-|---|---|
-| Tests | 140 passed |
-| Coverage | 90% |
-| Type Hints | 100% |
-| Linter | Ruff clean |
-| Type Checker | Mypy clean |
-
-[Repository](https://github.com/sam1064max/enterprise-nested-langgraph)
+### Open Source AI Templates
+Production-grade LangGraph templates for enterprise agentic systems — multi-agent orchestration, hierarchical graphs, supervisor patterns, and RAG platforms. Open-sourced for community adoption.
 
 ---
 
-### supervisor — Supervisor Pattern Reference Implementation
+## Leadership & Mentoring
 
-> Reference implementation of the Supervisor Pattern for multi-agent LLM systems. Dynamic routing, parallel fan-out, bounded reflection, and human-in-the-loop checkpoints.
-
-**Architecture:** Input Guardrail → Supervisor → Research / Analytics / Calculator → Writer ↔ Reviewer → Output Guardrail
-
-| Metric | Value |
-|---|---|
-| Tests | 111 passed |
-| Coverage | 96% |
-| All LLM calls mocked | Yes (hermetic tests) |
-
-[Repository](https://github.com/sam1064max/supervisor)
-
----
-
-### NLP2SQL — Natural Language Analytics for AdTech
-
-> NLP2SQL Analytics Copilot — natural language interface for AdTech intelligence. Translates business questions into SQL queries against complex analytics schemas.
-
-[Repository](https://github.com/sam1064max/NLP2SQL) *(private)*
-
----
-
-### ai-audiobook-generator — TTS Pipeline
-
-> Production-quality audiobook generation pipeline converting markdown lectures into narrated audio using Kokoro and Chatterbox-Turbo.
-
-[Repository](https://github.com/sam1064max/ai-audiobook-generator)
-
----
-
-### Agent Pattern Library
-
-| Pattern | Repository | Description |
-|---|---|---|
-| Router Agent | [RouterAgent](https://github.com/sam1064max/RouterAgent) | LLM-based routing to specialist agents |
-| Router (No LLM) | [Router-Agent-NoLLM](https://github.com/sam1064max/Router-Agent-NoLLM) | Deterministic routing without LLM overhead |
-| Planner-Executor | [Planner-Executor](https://github.com/sam1064max/Planner-Executor) | Plan decomposition and task execution |
-
----
-
-## Architecture Portfolio
-
-Six production platforms, each with full architecture documentation:
-
-| Platform | Components | Documentation |
-|---|---|---|
-| **RAG Platform** | Ingestion, Hybrid Retrieval, Reranking, Generation, Guardrails, Evaluation, Observability | [architecture.md](https://github.com/sam1064max/rag-platform-qwen3/blob/main/docs/architecture.md) |
-| **Agent Platform** | Supervisor, Router, Hierarchical Subgraphs, Tool Selection, HITL | [supervisor](https://github.com/sam1064max/supervisor) |
-| **Evaluation Platform** | RAGAS, DeepEval, Golden Datasets, Acceptance Criteria | [spec.md#evaluation](https://github.com/sam1064max/rag-platform-qwen3/blob/main/docs/spec.md) |
-| **Guardrails Platform** | NeMo, Prompt Injection, PII, Toxicity, Citation Verification | [security.md](https://github.com/sam1064max/rag-platform-qwen3/blob/main/docs/security.md) |
-| **Observability Platform** | OpenTelemetry, Langfuse, Prometheus, Grafana | [architecture.md#observability](https://github.com/sam1064max/rag-platform-qwen3/blob/main/docs/architecture.md) |
-| **Self-Hosted Infrastructure** | vLLM, Qdrant, MinIO, OpenBao, Gitea, Docker Compose | [homelab](https://github.com/sam1064max/homelab) |
-
----
-
-## Technology Map
-
-### AI & LLMs
-`Qwen3` · `vLLM` · `LangGraph` · `LangChain` · `NeMo Guardrails` · `HuggingFace` · `RAGAS` · `DeepEval`
-
-### Vector & Retrieval
-`Qdrant` · `BM25` · `RRF Fusion` · `Hybrid Search` · `Reranking`
-
-### MLOps & LLMOps
-`MLflow` · `Langfuse` · `OpenTelemetry` · `Prometheus` · `Grafana` · `LangSmith`
-
-### Data & Analytics
-`NLP2SQL` · `FastAPI` · `Pydantic v2` · `PostgreSQL` · `MinIO`
-
-### Cloud & Infrastructure
-`Docker` · `Terraform (HCL)` · `GitHub Actions` · `Gitea` · `OpenBao` · `NVIDIA A100`
-
-### Engineering Quality
-`Python 3.10+` · `Ruff` · `Mypy` · `Pytest` · `100% Type Hints` · `MIT License`
-
----
-
-## Selected Impact
-
-| Outcome | Context |
-|---|---|
-| Built end-to-end self-hosted RAG platform | 6+ components, production-grade, full observability stack |
-| Shipped multi-agent systems with 96% test coverage | LLM systems with hermetic test suites (no network calls) |
-| Designed hierarchical agent architecture | Parent → child subgraph composition with typed state |
-| Implemented comprehensive AI safety infrastructure | NeMo guardrails, STRIDE threat modeling, prompt injection defense |
-| Delivered NLP2SQL analytics for AdTech | Natural language interface for complex analytics schemas |
-| Built production TTS pipelines | Markdown → narrated audio with Kokoro and Chatterbox-Turbo |
-| Created self-hosted AI infrastructure | vLLM + Qdrant + MinIO + OpenBao on commodity hardware |
-| Reduced LLM evaluation cycle from days to minutes | RAGAS + DeepEval with golden datasets and CI integration |
-
----
-
-## Speaking & Leadership
-
-**Technical Leadership**
+- Mentored 30+ junior engineers across multiple organizations
+- Conducted 100+ technical interviews
+- Led and managed a team of 6 engineers
 - Architecture owner for AI platform initiatives
-- Led multi-agent system design across research, analytics, and reporting domains
+- Frequent speaker and mentor on GenAI, NLP, and distributed ML systems
 - Established engineering standards: type safety, test coverage, structured logging, documentation-first
 
-**Mentoring**
-- Guided teams on LangGraph adoption and multi-agent orchestration patterns
-- Established testing practices for LLM systems (mocking, hermetic suites, coverage targets)
+---
 
-**Architecture Ownership**
-- Full platform architecture: system context → container → component → deployment diagrams
-- Security architecture: threat modeling, guardrail design, secrets management
+## Education
+
+**M.Tech, Computer Science** · IIT Bombay · 2015–2017
+
+**B.E., Computer Science** · Nagpur University · 2009–2013
+
+**GATE 2015** · 99.51 percentile (among 115,425 registered students)
 
 ---
 
-## Current Learning
+## Achievements
 
-```
-Multi-Agent Orchestration    AI Evaluation Frameworks    Inference Optimization
-LLMOps Platform Design       Agentic AI Patterns         Self-Hosted AI Infrastructure
-```
-
----
-
-## Open Source
-
-All key projects are open source under MIT License:
-
-| Project | License | Status |
-|---|---|---|
-| rag-platform-qwen3 | MIT | Active |
-| enterprise-nested-langgraph | MIT | Active |
-| supervisor | MIT | Active |
-| ai-audiobook-generator | MIT | Active |
+- Top performer award at Google, Goldman Sachs, and Persistent Systems
+- Built self-hosted homelab for autonomous AI agents, private LLM infrastructure, and distributed applications
+- Designed and published open-source LangGraph templates for enterprise-grade GenAI agents
 
 ---
 
 ## Contact
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sushant-shambharkar-b6242658"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/sam1064max"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="mailto:sam1064max@gmail.com"><img src="https://img.shields.io/badge/Email-sam1064max@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
-
----
-
-<p align="center">
-  <sub>Built with production-grade intent. No templates. No fluff. Just systems.</sub>
-</p>
-
-<!-- profile:version:v1.0.1 -->
+[LinkedIn](https://www.linkedin.com/in/sushant-shambharkar-b6242658) · [GitHub](https://github.com/sam1064max) · sam1064max@gmail.com
